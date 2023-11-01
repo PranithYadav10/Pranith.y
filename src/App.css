@@ -1,0 +1,45 @@
+
+
+.dashboard-container{
+    background-image: url("./assets/Head.png");
+    height: 70vh;
+    width:100%;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+    position: absolute;
+    width:70%;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 50%;
+}
+
+#logo{
+    font-weight: 1000;
+}
+.navbar button{
+    background-color: #008080;
+    border:none;
+    color:white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.navbar .btn {
+   display: flex;
+   justify-content: end;  
+}
